@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">StefanBayneGreenFlag</string>
+    <string name="account_access">GreenFlag customers can create
+        an account to access</string>
+    <string name="car_health">Car health updates</string>
+    <string name="recue_online">Request a rescue online</string>
+    <string name="policy_info">Policy information</string>
+    <string name="create_account">Create an account</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="email_address">Email address</string>
+    <string name="create_password">Create password</string>
+    <string name="repeat_password">Repeat password</string>
+    <string name="password_specification">Your password should have a minimum of 8 characters and contain at least one number, one uppercase and one lower case letter. You can use special characters.</string>
+    <string name="see_criteria_below">See criteria below</string>
+    <string name="next">Next</string>
+    <string name="an_account_already_exists_for_this_email_address">An account already exists for this email address.</string>
+    <string name="your_passwords_don_t_match">Your passwords don\'t match.</string>
+</resources>
