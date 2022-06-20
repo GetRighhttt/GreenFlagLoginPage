@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">StefanBayneGreenFlag</string>
     <string name="account_access">GreenFlag customers can create
-        an account to access</string>
+        an account to access:</string>
     <string name="car_health">Car health updates</string>
     <string name="recue_online">Request a rescue online</string>
     <string name="policy_info">Policy information</string>

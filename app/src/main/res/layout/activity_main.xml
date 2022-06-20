@@ -24,10 +24,10 @@
     <TextView
         android:id="@+id/text_view1"
         android:layout_width="285dp"
-        android:layout_height="55dp"
-        android:fontFamily="@font/museosans500"
-        android:layout_marginTop="152dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="148dp"
         android:background="@color/black"
+        android:fontFamily="@font/museosans500"
         android:text="@string/account_access"
         android:textColor="@color/white"
         android:textSize="22sp"

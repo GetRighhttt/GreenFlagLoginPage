@@ -5,7 +5,9 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Patterns;
+import android.view.KeyEvent;
 import android.view.View;
+import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -142,6 +144,18 @@ public class SecondActivity extends AppCompatActivity {
                 editEmailAddress.setBackgroundResource(R.drawable.greenboarder);
                 Toast.makeText(this, "Email and Password confirmed.", Toast.LENGTH_SHORT).show();
             }
+
+            EditText editText = editConfirmPassword;
+            editText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
+                @Override
+                public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                    boolean handled = false;
+                    if (actionId == EditorInfo.IME_ACTION_GO) {
+                        handled = true;
+                    }
+                    return handled;
+                }
+            });
         });
 
     }
