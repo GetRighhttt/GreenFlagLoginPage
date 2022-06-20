@@ -74,7 +74,7 @@ public class SecondActivity extends AppCompatActivity {
         // This is where the methods will check to see if input is valid also
         TextWatcher loginTextWatcher = new TextWatcher() {
             @Override
-            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) { }
+            public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {}
 
             @Override
             public void onTextChanged(CharSequence charSequence, int i, int i1, int i2) {
@@ -115,6 +115,11 @@ public class SecondActivity extends AppCompatActivity {
         editEmailAddress.addTextChangedListener(loginTextWatcher);
         editCreatePassword.addTextChangedListener(loginTextWatcher);
         editConfirmPassword.addTextChangedListener(loginTextWatcher);
+
+        // set the backgrounds of the editText fields before the user inputs data
+        editEmailAddress.setBackgroundResource(R.drawable.whiteborder);
+        editCreatePassword.setBackgroundResource(R.drawable.whiteborder);
+        editConfirmPassword.setBackgroundResource(R.drawable.whiteborder);
 
         // Set the functionality of the button
         buttonToConfirm.setOnClickListener(view -> {
